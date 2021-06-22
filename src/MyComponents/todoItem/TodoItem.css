@@ -1,0 +1,17 @@
+li{
+    color: #696969;
+}
+
+button{
+    font-size: 17px;
+    color: white;
+    background-color: orange;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: orangered;
+    box-shadow: 0 5px 10px orange;
+}

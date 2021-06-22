@@ -1,0 +1,43 @@
+label{
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-left: 16%;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width:800px){
+    label{
+        margin: 6%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    label{
+        font-size: 16px;
+        margin: auto;
+    }
+    
+    input{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:360px){
+    label{
+        font-size: 12px;
+        margin: auto;
+    }
+    
+    input{
+        margin: auto;
+    }
+}

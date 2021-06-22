@@ -1,0 +1,52 @@
+.inputBox{
+    padding: 10px;
+    position: absolute;
+    left: 29vw;
+    top: 18vh;
+    background-color: white;
+    border-radius: 10px;
+    width: 40vw;
+    height: 4vh;
+}
+
+.todoBox{
+    overflow-x: default;
+    overflow-y: auto;
+    padding: 5px 15px;
+    position: absolute;
+    left: 29vw;
+    top: 28vh;
+    background-color: white;
+    box-shadow: 0 10px 20px #888888;
+    border-radius: 10px;
+    width: 39.5vw;
+    height: 50vh;
+}
+
+h1{
+    text-align: center;
+}
+
+@media only screen and (max-width:1024px){
+    .inputBox{
+        left: 19vw;
+        width: 60vw;
+    }
+
+    .todoBox{
+        left: 19vw;
+        width: 59vw;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .inputBox{
+        left: 14vw;
+        width: 70vw;
+    }
+
+    .todoBox{
+        left: 14vw;
+        width: 68vw;
+    }
+}
