@@ -38,7 +38,7 @@ function App() {
       content: content
     };
     setTodos([...todos,todo]);
-    localStorage.setItem("todos",JSON.stringify(todos));
+   
   }
 
   const [todos,setTodos] = useState(initTodo);
